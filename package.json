@@ -10,8 +10,8 @@
   "directories": {
     "lib": "./lib"
   },
-  "dependencies": {
-    "underscore": "^1.8.3"
+  "peerDependencies": {
+    "underscore": "1.8.x"
   },
   "devDependencies": {
     "browserify": "*",
