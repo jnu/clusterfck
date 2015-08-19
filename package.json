@@ -1,25 +1,27 @@
 {
-   "name": "clusterfck",
-   "description": "K-means and hierarchical clustering",
-   "version": "0.6.0",
-   "author": "Heather Arthur <fayearthur@gmail.com>",
-   "repository": {
-      "type": "git",
-      "url": "http://github.com/harthur/clusterfck.git"
-   },
-   "directories": {
-      "lib": "./lib"
-   },
-   "dependencies" : {
-
-   },
-   "devDependencies": {
-      "uglify-js" : "*",
-      "underscore": "*",
-      "nomnom" : "*",
-      "cradle" : "*",
-      "connect": "*",
-      "browserify": "*"
-   },
-   "main": "./lib/clusterfck"
+  "name": "clusterfck",
+  "description": "K-means and hierarchical clustering",
+  "version": "0.6.0",
+  "author": "Heather Arthur <fayearthur@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/harthur/clusterfck.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "*",
+    "connect": "*",
+    "cradle": "*",
+    "equality": "0.0.4",
+    "jake": "^8.0.12",
+    "nodeunit": "^0.9.1",
+    "nomnom": "*",
+    "uglify-js": "*",
+    "underscore": "*",
+    "webpack": "^1.11.0"
+  },
+  "main": "./lib/clusterfck"
 }
