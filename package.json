@@ -10,18 +10,24 @@
   "directories": {
     "lib": "./lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
   "devDependencies": {
     "browserify": "*",
     "connect": "*",
     "cradle": "*",
     "equality": "0.0.4",
+    "eslint": "^1.2.0",
     "jake": "^8.0.12",
     "nodeunit": "^0.9.1",
     "nomnom": "*",
     "uglify-js": "*",
-    "underscore": "*",
     "webpack": "^1.11.0"
   },
-  "main": "./lib/clusterfck"
+  "main": "./lib/clusterfck",
+  "scripts": {
+    "build": "$(npm bin)/webpack",
+    "test": "$(npm bin)/nodeunit test/sanity/kmeans && $(npm bin)nodeunit test/sanity/hcluster"
+  }
 }
